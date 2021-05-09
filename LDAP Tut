@@ -1,0 +1,27 @@
+LDAP - LightWeight Directory Access Protocol
+It is an application protocol over an IP network to manage and access the distributed directory information service.
+Now the purpose of the directory service as we know is to provide a systematic set of records in a hierarchical way.
+Record1 -> Record2 -> Record3
+
+LDAP is basically designed to have more Read operations and less write operations.
+Examples of LDAP resources are to add an employee , computer , printer.
+The best usecase is storing Employee password and username.
+Employee details storing username and password in LDAP server and using authentication against it cozz we know
+that username and password will not change regularly and hence write operation is rare.
+
+The most important is LDAP server where we store employee username and password.
+Second we have to setup the LDAP client. here the client can be web application also.
+The LDAP server is called Directory System Agent set up at port 389.
+After the connection is established the client and server exchange packets of data and basic encoding rules are used
+to transform the information between server and client.
+
+Operations on LDAP - ADD an entry, DELETE an entry, BIND, MODIFY , UNBIND.
+
+
+
+
+
+
+
+
+
